@@ -1,0 +1,13 @@
+node_modules/
+.soundmesh/
+*.log
+.runtime/
+release/
+docs/*.png
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+.env
+.env.*

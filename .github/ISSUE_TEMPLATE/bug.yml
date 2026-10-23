@@ -1,0 +1,23 @@
+name: Bug report
+description: Report an audio, connection, or launcher problem.
+title: '[Bug] '
+body:
+  - type: input
+    id: environment
+    attributes:
+      label: Devices and browsers
+      placeholder: Windows laptop / Chrome version; iPhone / Safari version
+    validations:
+      required: true
+  - type: dropdown
+    id: mode
+    attributes:
+      label: Mode
+      options: [Live audio, Music file, Connection or QR, Windows launcher, Equalizer]
+  - type: textarea
+    id: behavior
+    attributes:
+      label: What happened?
+      description: Include steps, buffer profile, affected speakers, and whether source playback is clean after sharing stops. Remove current invitation links, QR codes, and private logs.
+    validations:
+      required: true

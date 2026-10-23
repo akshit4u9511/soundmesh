@@ -1,0 +1,19 @@
+{
+  "name": "soundmesh",
+  "version": "0.2.0",
+  "private": true,
+  "description": "Local Wi-Fi audio room for phones and laptops",
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test",
+    "check": "node --check server.mjs && node --check public/app.js && node --check public/capture-worklet.js && node --check public/playback-worklet.js && node --check public/live-timeline.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "jsqr": "^1.4.0",
+    "qrcode-generator": "^2.0.4"
+  }
+}

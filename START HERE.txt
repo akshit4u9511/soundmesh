@@ -1,0 +1,28 @@
+SOUNDMESH - DOUBLE-CLICK TO RUN
+
+1. If you downloaded the ZIP, extract the WHOLE folder first.
+2. Double-click Run SoundMesh.cmd.
+3. Chrome opens automatically with the correct host invitation.
+   If Chrome is unavailable, the launcher tries Microsoft Edge.
+4. On your phone, scan the QR under Bring another device.
+   Keep both devices on the same Wi-Fi and tap Enable this speaker.
+5. Use Live audio for an online music tab, or Music file for a saved song.
+
+Double-click Stop SoundMesh.cmd when finished.
+Closing Chrome does not stop the background room.
+Run again reopens the existing room rather than starting another server.
+
+The Windows x64 portable ZIP includes its own Node.js runtime.
+No npm commands, account, or separate Node installation are required.
+An internet connection is only needed for the online music you choose.
+
+If Windows asks about network access, allow the bundled Node.js runtime
+on your trusted Private network so phones can connect.
+
+Keep only ONE enabled SoundMesh page on the laptop to avoid duplicate audio.
+Stop playback if audio sounds harsh. Start at low volume.
+
+Move the complete folder together. Do not run from inside the ZIP.
+Use the launcher from the same folder to stop that running copy.
+Logs and the current local invitation are stored in .soundmesh.
+Do not share that private runtime folder; the portable ZIP excludes it.
